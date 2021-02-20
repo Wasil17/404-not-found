@@ -67,6 +67,18 @@ img {
     opacity: 0.92;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    color: #4F4F4F;
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
 @media (max-width: 1400px) {
     .container {
         flex-direction: column;
@@ -109,6 +121,7 @@ img {
     .not-found-left-top {
         top: 0.75rem;
         left: 1.5rem;
+        font-size: 18px;
     }
 
     .main-text {
@@ -121,5 +134,9 @@ img {
 
     .btn {
         margin: 10px auto;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
