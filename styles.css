@@ -66,3 +66,60 @@ img {
 .btn:hover {
     opacity: 0.92;
 }
+
+@media (max-width: 1400px) {
+    .container {
+        flex-direction: column;
+        margin-right: 0;
+        width: 75vw;
+    }
+
+    .main-text {
+        font-size: 48px;
+    }
+
+    .helper-text {
+        font-size: 18px;
+    }
+
+    img {
+        margin: 0;
+        height: 25vh;
+    }
+
+    .not-found-left-top {
+        top: 1.5rem;
+        left: 3rem;
+    }
+
+    body {
+        height: auto;
+    }
+
+    .XD {
+        margin-top: 20vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .XD {
+        margin-top: 10vh;
+    }
+
+    .not-found-left-top {
+        top: 0.75rem;
+        left: 1.5rem;
+    }
+
+    .main-text {
+        line-height: 1;
+    }
+
+    .container {
+        margin-bottom: 5vh;
+    }
+
+    .btn {
+        margin: 10px auto;
+    }
+}
