@@ -108,13 +108,18 @@ footer {
         height: auto;
     }
 
-    .XD {
+    .wrapper {
         margin-top: 20vh;
+    }
+
+    .btn {
+        margin-top: 30px;
+        margin-right: 0;
     }
 }
 
 @media (max-width: 500px) {
-    .XD {
+    .wrapper {
         margin-top: 10vh;
     }
 
