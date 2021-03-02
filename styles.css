@@ -134,6 +134,11 @@ footer {
     margin-bottom: 1em;
 }
 
+footer a {
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
 @media (max-width: 1400px) {
     .container {
         flex-direction: column;

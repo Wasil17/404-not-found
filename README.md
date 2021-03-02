@@ -64,5 +64,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@Wasil17](https://{github.com/Wasil17})
+- GitHub [@d-wasilewski](https://github.com/d-wasilewski)
 
